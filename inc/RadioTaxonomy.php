@@ -24,7 +24,7 @@ class RadioTaxonomy
         return self::$ins;
     }
 
-    public function init()
+    public static function init()
     {
         add_action('add_meta_boxes', array(self::instance(), 'boxes'));
     }
