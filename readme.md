@@ -13,6 +13,6 @@ new taxonomy.
     register_taxonomy('some_tax', 'post', array(
         // other args ...
         // only works on non-hierarchical taxonomies.
-        'hierarchical'          => true,
+        'hierarchical'          => false,
         'radio_taxonomy'        => true,
     ));
